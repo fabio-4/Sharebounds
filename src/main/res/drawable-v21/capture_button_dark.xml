@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/black" />
+            <size android:width="@dimen/captureButtonInner"
+                android:height="@dimen/captureButtonInner"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/capture_button_dark_normal"/>
+</ripple>

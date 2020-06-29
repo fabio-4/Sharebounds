@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="captureButtonHeight">56dp</dimen>
+    <dimen name="captureButtonWidth">56dp</dimen>
+    <dimen name="captureButtonInner">50dp</dimen>
+    <dimen name="captureButtonTransp">3dp</dimen>
+    <dimen name="captureButtonCircle">2dp</dimen>
+    <dimen name="kbCaptureButtonSize">48dp</dimen>
+    <dimen name="buttonHeight">40dp</dimen>
+    <dimen name="buttonWidth">40dp</dimen>
+
+    <dimen name="bigMargin">16dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+</resources>

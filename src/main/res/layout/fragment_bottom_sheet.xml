@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btm_layout1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    android:background="#FFF">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/btm_nestedScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btm_layout2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/bottomSheetElement"
+                android:id="@+id/btm_text1"
+                android:text="@string/btm_sheet_instr"/>
+
+            <View
+                android:id="@+id/btm_line1"
+                style="@style/bottomSheetLine"/>
+
+            <TextView
+                style="@style/bottomSheetElement"
+                android:id="@+id/btm_text2"
+                android:text="@string/btm_sheet_info" />
+
+            <View
+                android:id="@+id/btm_line2"
+                style="@style/bottomSheetLine"/>
+
+            <TextView
+                style="@style/bottomSheetElement"
+                android:id="@+id/btm_text3"
+                android:text="@string/btm_sheet_kb"
+                android:textColor="@color/bottomSheetTitle"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                style="@style/bottomSheetElement"
+                android:id="@+id/btm_text4"
+                android:text="@string/btm_sheet_kb_instr"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<resources>
+    <string name="display_name">Shrbounds</string>
+    <string name="app_name">Sharebounds</string>
+    <string name="share_app_name">Sharebounds:\n</string>
+    <string name="title_activity_priv_tou">Privacy Policy &amp; Terms of Use</string>
+    <string name="title_activity_text">Text</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="textField_text">Share text</string>
+    <string name="share">Share</string>
+
+    <string name="acc_terms">Open the main application to accept the Privacy P. &amp; ToU</string>
+    <string name="tou_url">Terms of Use: WEBSITE \n</string>
+    <string name="priv_url">Privacy Policy: WEBSITE \n</string>
+    <string name="privTouCheckBoxText">I accept the Terms of Use and Privacy Policy</string>
+    <string name="privTouButton">Continue</string>
+
+    <string name="ocr_loading_error">Couldn\'t load Mobile Vision Text (Google Play Services),
+        check if device storage low/ update Google Play Services.</string>
+    <string name="img_loading_error">Couldn\'t load image</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="storage_permission_denied">Storage permission denied</string>
+
+    <string name="image_picker_text">Select image</string>
+    <string name="image_view_content">Text image</string>
+    <string name="capture_button_content">Capture image button</string>
+    <string name="photos_button_content">Image picker button</string>
+    <string name="text_button_content">Open text button</string>
+    <string name="flash_button_content">Flash mode button</string>
+    <string name="settings_button_content">Open settings button</string>
+    <string name="cancel_button_content">Cancel button</string>
+    <string name="add_button_content">Add button</string>
+    <string name="kb_globe_content">Switch to next keyboard</string>
+    <string name="kb_space_content">Space button</string>
+    <string name="kb_backspace_content">Backspace button</string>
+    <string name="kb_return_content">Return button</string>
+    <string name="kb_fullscreen_content">Change keyboard size button</string>
+
+    <string name="pref_buy_pro">Buy Pro</string>
+    <string name="pref_design">Design</string>
+    <string name="pref_app">Like the App?</string>
+    <string name="pref_keyboard">Keyboard</string>
+    <string name="pref_info">Information</string>
+
+    <string name="share_title">Share via</string>
+
+    <string name="pref_title_sharebounds_msg">No \'Sharebounds:\' in shared text</string>
+    <string name="pref_title_rate_app">Rate</string>
+    <string name="pref_title_share_app">Share</string>
+
+    <string name="pref_title_colors_list">Color Theme</string>
+    <string name="pref_colors_default">Default</string>
+
+    <string name="pref_keyboard_globe">Globe Button</string>
+    <string name="pref_keyboard_globe_default">Next Keyboard</string>
+    <string name="pref_keyboard_sound">Sound</string>
+    <string name="pref_keyboard_sound_summary">System Volume (Touch sounds)</string>
+    <string name="pref_keyboard_vibration">Vibration</string>
+
+    <string name="pref_title_tut">Tutorial</string>
+    <string name="pref_title_tou">Terms of Use</string>
+    <string name="pref_title_priv">Privacy Policy</string>
+    <string name="pref_title_info">Open Source Licenses</string>
+
+    <string name="settings_share_app">Download \'Sharebounds\': PLAYSTORE-URL</string>
+    <string name="rate_title">Rate Sharebounds</string>
+    <string name="rate_body">If you like this app, please leave a review on the Play Store.</string>
+    <string name="rate_button_pos">Rate</string>
+    <string name="rate_button_later">Maybe later</string>
+    <string name="rate_button_no">No, thanks</string>
+
+    <string name="label_subtype_generic">Camera</string>
+
+    <string name="btm_sheet_instr">&#8226;\t Capture an image\n&#8226;\t Get text:\n\t\t Single Tap: Word\n\t\t Double Tap: Line\n\t\t Long Press: Block\n&#8226;\t Share\n\n&#8226;\t Always verify the results and never capture/ scan/ share any private/ personal or confidential/ important text data!</string>
+    <string name="btm_sheet_kb">Keyboard/ Device Settings</string>
+    <string name="btm_sheet_kb_instr">&#8226;\t System > Languages &amp; input > Virtual keyboard > Manage keyboards > Enable Sharebounds: Camera\n\n&#8226;\t Camera permission: Apps &amp; notifications > App permissions > Camera > Enable Sharebounds</string>
+    <string name="btm_sheet_info">&#8226;\t Google Play Services required (Mobile Vision: Text Recognition)</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_buy_pro">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:enabled="false"
+            android:key="pro_sharebounds_msg"
+            android:title="@string/pref_title_sharebounds_msg" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_design">
+
+        <ListPreference
+            android:defaultValue="0"
+            android:summary="@string/pref_colors_default"
+            android:entries="@array/pref_colors_list_titles"
+            android:entryValues="@array/pref_colors_list_values"
+            android:key="design_colors_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_colors_list" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_keyboard">
+
+        <ListPreference
+            android:defaultValue="0"
+            android:summary="@string/pref_keyboard_globe_default"
+            android:entries="@array/pref_keyboard_globe_titles"
+            android:entryValues="@array/pref_keyboard_globe_values"
+            android:key="keyboard_globe_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_keyboard_globe" />
+
+        <CheckBoxPreference
+            android:key="keyboard_sound"
+            android:title="@string/pref_keyboard_sound"
+            android:summary="@string/pref_keyboard_sound_summary"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="keyboard_vibration"
+            android:title="@string/pref_keyboard_vibration"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_app">
+
+        <Preference
+            android:key="app_rate_button"
+            android:title="@string/pref_title_rate_app" />
+        <Preference
+            android:key="app_share_button"
+            android:title="@string/pref_title_share_app" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_info">
+
+        <Preference
+            android:key="app_tut_button"
+            android:title="@string/pref_title_tut" />
+        <Preference
+            android:key="app_tou_button"
+            android:title="@string/pref_title_tou" />
+        <Preference
+            android:key="app_priv_button"
+            android:title="@string/pref_title_priv"/>
+        <Preference
+            android:key="app_info_button"
+            android:title="@string/pref_title_info" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

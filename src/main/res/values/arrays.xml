@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_colors_list_titles">
+        <item>Default</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="pref_colors_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_keyboard_globe_titles">
+        <item>Next Keyboard</item>
+        <item>Previous Keyboard</item>
+        <item>Keyboard Picker</item>
+    </string-array>
+    <string-array name="pref_keyboard_globe_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

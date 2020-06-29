@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyboard"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black">
+
+    <com.sharebounds.sharebounds.camera.CameraTextureView
+        style="@style/FullScreenConstraint"
+        android:id="@+id/camera_texture" />
+
+    <com.sharebounds.sharebounds.camera.BitmapImageView
+        style="@style/FullScreenConstraint"
+        android:id="@+id/camera_image_view"
+        android:layout_height="250dp"
+        android:background="@android:color/black"
+        android:alpha="0.0"
+        android:visibility="invisible"
+        android:contentDescription="@string/image_view_content" />
+
+    <com.sharebounds.sharebounds.camera.CameraAnimationView
+        style="@style/FullScreenConstraint"
+        android:id="@+id/camera_animation" />
+
+    <com.sharebounds.sharebounds.camera.CaptureButton
+        android:contentDescription="@string/capture_button_content"
+        android:src="@drawable/ic_close_black_24dp"
+        android:id="@+id/capture_button"
+        android:soundEffectsEnabled="false"
+        android:scaleType="center"
+        android:layout_width="@dimen/kbCaptureButtonSize"
+        android:layout_height="@dimen/kbCaptureButtonSize"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="@dimen/smallMargin"
+        android:layout_marginLeft="@dimen/smallMargin"
+        android:layout_marginStart="@dimen/smallMargin"
+        android:layout_marginEnd="@dimen/smallMargin" />
+
+    <com.sharebounds.sharebounds.BaseThemeImageButton
+        style="@style/KbBaseThemeButton"
+        android:onClick="kbGlobeButtonClick"
+        android:contentDescription="@string/kb_globe_content"
+        android:src="@drawable/ic_language_black_24dp"
+        android:id="@+id/kb_globe_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/smallMargin"
+        android:layout_marginStart="@dimen/smallMargin"
+        android:layout_marginLeft="@dimen/smallMargin" />
+
+    <com.sharebounds.sharebounds.BaseThemeImageButton
+        style="@style/KbBaseThemeButton"
+        android:onClick="kbButtonClick"
+        android:contentDescription="@string/kb_return_content"
+        android:src="@drawable/ic_keyboard_return_black_24dp"
+        android:id="@+id/kb_return_button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/smallMargin"
+        android:layout_marginEnd="@dimen/smallMargin"
+        android:layout_marginRight="@dimen/smallMargin" />
+
+    <com.sharebounds.sharebounds.keyboard.KeyboardRepeatButton
+        style="@style/KbBaseThemeButton"
+        android:onClick="kbBackspaceButtonClick"
+        android:contentDescription="@string/kb_backspace_content"
+        android:src="@drawable/ic_backspace_black_24dp"
+        android:id="@+id/kb_backspace_button"
+        app:layout_constraintLeft_toRightOf="@+id/capture_button"
+        app:layout_constraintRight_toLeftOf="@+id/kb_return_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/smallMargin"
+        android:layout_marginLeft="@dimen/smallMargin"
+        android:layout_marginRight="@dimen/smallMargin"
+        android:layout_marginStart="@dimen/smallMargin"
+        android:layout_marginEnd="@dimen/smallMargin" />
+
+    <com.sharebounds.sharebounds.BaseThemeImageButton
+        style="@style/KbBaseThemeButton"
+        android:onClick="kbButtonClick"
+        android:contentDescription="@string/kb_space_content"
+        android:src="@drawable/ic_space_bar_black_24dp"
+        android:id="@+id/kb_space_button"
+        app:layout_constraintRight_toLeftOf="@+id/capture_button"
+        app:layout_constraintLeft_toRightOf="@+id/kb_globe_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="@dimen/smallMargin"
+        android:layout_marginLeft="@dimen/smallMargin"
+        android:layout_marginBottom="@dimen/smallMargin"
+        android:layout_marginStart="@dimen/smallMargin"
+        android:layout_marginEnd="@dimen/smallMargin" />
+
+    <com.sharebounds.sharebounds.camera.FlashButton
+        style="@style/BaseThemeButton"
+        android:contentDescription="@string/flash_button_content"
+        android:id="@+id/flash_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:layout_marginStart="@dimen/smallMargin"
+        android:layout_marginLeft="@dimen/smallMargin" />
+
+    <com.sharebounds.sharebounds.keyboard.FullScreenButton
+        style="@style/BaseThemeButton"
+        android:contentDescription="@string/kb_fullscreen_content"
+        android:id="@+id/kb_full_screen_button"
+        android:onClick="kbFullScreenButtonClick"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:layout_marginEnd="@dimen/smallMargin"
+        android:layout_marginRight="@dimen/smallMargin" />
+
+</android.support.constraint.ConstraintLayout>
